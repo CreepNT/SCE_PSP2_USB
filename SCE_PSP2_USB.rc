@@ -1,0 +1,24 @@
+//---------------------------------------------------------------------------
+//  SCE_PSP2_USB.rc : implements the resource entries for the driver
+//---------------------------------------------------------------------------
+
+#include <windows.h>
+#include <ntverp.h>
+
+#ifdef AMD64
+ #define TARGETPLATFORM  "x64"
+#else
+ #define TARGETPLATFORM  "x86"
+#endif
+
+#undef VER_PRODUCTNAME_STR
+
+#define VER_FILETYPE                VFT_DLL
+#define VER_FILESUBTYPE             VFT_UNKNOWN
+#define VER_PRODUCTNAME_STR         "USB driver for PlayStation(R)Vita Developement Kit (Built for " TARGETPLATFORM ")"
+#define VER_FILEDESCRIPTION_STR     "USB driver for PlayStation(R)Vita Developement Kit"
+#define VER_LEGALCOPYRIGHT_STR      "Copyright \251 2011 Sony Computer Entertainement Inc. - Copyright \251 CreepNT 2021 - All Rights Reserved"
+#define VER_INTERNALNAME_STR        "SCE_PSP2_USB"
+#define VER_ORIGINALFILENAME_STR    "SCE_PSP2_USB.dll"
+
+#include "common.ver"

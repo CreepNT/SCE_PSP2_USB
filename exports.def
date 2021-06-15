@@ -1,0 +1,4 @@
+LIBRARY      "SCE_PSP2_USB.DLL"
+
+EXPORTS
+    DllGetClassObject   PRIVATE
