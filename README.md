@@ -6,4 +6,4 @@ All the content of this repository is provided under BSD 3-Clause license. See L
 
 # Credits
 Based on Microsoft's UMDF1 Driver Skeleton Sample and UMDF1 USB Driver Sample.<br>
-See [this repository](https://github.com/Microsoft/windows-drivers-samples) for more information.
+See [this repository](https://github.com/Microsoft/windows-driver-samples) for more information.
